@@ -1,0 +1,45 @@
+/* sub_header */
+header .sub_header{
+  color: #000;
+  border-bottom: #000 solid 1px;
+}
+header h1 a{
+  background: url(../img/ci_128.png)no-repeat center / 100%;
+}
+.ico_mypage button{
+  background: url(../img/ico_my.png)no-repeat center/100%;
+}
+.ico_search button{
+  background: url(../img/ico_search.png)no-repeat center/100%;
+}
+.ico_allmenu button{
+  background: url(../img/ico_allmenu.png)no-repeat center/100%;
+}
+.ico_menu button{
+  color: #000;
+}
+
+/* sub_main */
+.location_wrap{
+  padding-top: 111px;
+}
+.location_wrap ul{
+  display: flex;
+  padding: 17px 0 25px;
+  font-size: 12px;
+}
+.location_wrap ul li~li::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../img/arr_location.png) no-repeat center / 100%;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.sub_h2_tit{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
